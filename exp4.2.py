@@ -1,24 +1,14 @@
-def print_words_of_length(files_path, word_length):
+import sys
+def greet():
+	print("Hello! Welcome to the Python Executable Demo.")
+
+def main():
 	try:
-		with open(file_path, 'r') as file:
-			text = file.read()
-		
-		words = text.split()
-		words_of_length = [word for word in words if len(word) == word_length]
-	
-		if words_of_length:
-			print(f" words with {word_length} letters:")
-			for word in words_of_length:
-				print(word)
-				
-		else:
-			print(f" No words of length {word_length} found.")
-		
-	except FileNotFoundError:
-		print(f" The file at {file_path} was not found.")
+		greet()
+		name = input("Enter your name: ")
+		print(f"Hello, {name}! Have a great day!")
 	except Exception as e:
-		print(f"An error occured: {e}")
-		
-file_path = "sample.txt"
-word_length = 4
-print_words_of_length(file_path,word_length)
+		print(f"An error occurred: {e}", file=sys.stderr)
+
+if __name__ == "__main__":
+	main()
