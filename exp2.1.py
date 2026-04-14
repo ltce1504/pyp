@@ -40,7 +40,7 @@ def updateTask():
     t = input("Enter Task: ")
     try:
         ind = int(input("Please enter the index to be updated: "))
-        if 1 <= ind <= len(task_list):
+        if not 1 <= ind <= len(task_list):
             print("Invalid index.Please enter a valid index.")
             try:
                 p = int(input("Enter the Task Priority (1 - High , 2 - Medium , 3 - Low)"))
