@@ -42,7 +42,4 @@ while True:
         print("Invalid choice! Please try again.")
         break
 
-This program demonstrates the use of set operations to manage and analyze data about students enrolled in different entrance exams. 
-It allows users to easily find out which students are enrolled in which exams, and how they overlap.
- The use of sets simplifies the logic for these operations, making the code more efficient and easier to read."""
 
