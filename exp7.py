@@ -59,3 +59,43 @@ label_result.pack(pady=10)
 
 # Run application
 root.mainloop()
+
+
+"""import tkinter as tk
+
+# Function to convert cm to inches
+def convert_cm_to_inches():
+    try:
+        cm_value = float(entry_cm.get())
+        inches = cm_value / 2.54   # 1 inch = 2.54 cm
+        label_result.config(text=f"{cm_value:.2f} cm = {inches:.2f} inches")
+    except ValueError:
+        label_result.config(text="Please enter a valid number")
+
+# Create main window
+root = tk.Tk()
+root.title("Simple Conversion GUI")
+root.geometry("300x200")
+
+# Heading
+label_heading = tk.Label(root, text="CM to Inches Converter", font=("Arial", 14, "bold"))
+label_heading.pack(pady=10)
+
+# Input field
+label_prompt = tk.Label(root, text="Enter length in cm:")
+label_prompt.pack()
+entry_cm = tk.Entry(root)
+entry_cm.pack(pady=5)
+
+# Button
+button_convert = tk.Button(root, text="Convert", command=convert_cm_to_inches)
+button_convert.pack(pady=10)
+
+# Result label
+label_result = tk.Label(root, text="Result will appear here", font=("Arial", 12))
+label_result.pack(pady=10)
+
+# Run application
+root.mainloop()
+
+USE THIS FOR SIMPLE ONE"""
