@@ -42,16 +42,6 @@ while True:
         print("Invalid choice! Please try again.")
         break
 
-"""the logic behind the program:
-1. We have three sets of students enrolled in different entrance exams: CET, JEE, and NEET.
-2. The program defines three functions to perform set operations: union, intersection, and difference.
-3. The union_students function calculates the union of the three sets, which gives us a set of students enrolled in at least one of the exams.
-4. The intersection_students function calculates the intersection of the three sets, which gives us a set of students enrolled in all three exams.
-5. The difference_students function calculates the difference between the CET set and the other two sets, which gives us a set of students enrolled only in CET.
-6. The program runs in a loop, presenting a menu to the user to choose which operation they want to perform. 
-The user can select union, intersection, difference, or exit the program.
-7. Based on the user's choice, the corresponding function is called, and the results are displayed.
- If the user enters an invalid choice, an error message is displayed, and the program exits.
 This program demonstrates the use of set operations to manage and analyze data about students enrolled in different entrance exams. 
 It allows users to easily find out which students are enrolled in which exams, and how they overlap.
  The use of sets simplifies the logic for these operations, making the code more efficient and easier to read."""
